@@ -1,0 +1,6 @@
+[template]
+src = "application.tmpl"
+dest = "/home/microservices/config/application.yml"
+keys = [
+    "/"
+]

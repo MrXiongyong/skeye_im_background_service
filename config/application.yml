@@ -1,0 +1,9 @@
+server:
+  port: 8082
+spring:
+  data:
+    mongodb:
+      uri: mongodb://prometheus:q5a_F!10@10.161.12.101:8592,10.161.12.128:8592,10.161.12.129:8592/PrometheusConfig
+params:
+  wbUrl: http://10.161.12.101:8772/skyEyePermission/baseApi/getallprojectsandmodules
+  modulesCron: "0 0 0/3 * * ?"

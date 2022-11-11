@@ -1,0 +1,6 @@
+[template]
+src = "logback.tmpl"
+dest = "/home/microservices/config/logback-spring.xml"
+keys = [
+    "/"
+]
